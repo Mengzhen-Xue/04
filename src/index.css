@@ -1,0 +1,37 @@
+:root {
+
+  --background-color: #fff;
+  --text-color: #333;
+  --card-background: #f9f9f9;
+  --border-color: #ccc;
+}
+
+[data-theme="dark"] {
+  --background-color: #1e352f;
+  --text-color: white;
+  --card-background: #e3cbb5;
+  --border-color: #e3cbb5;
+
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  transition: background-color 0.3s, color 0.3s;
+
+}
+
+.nutrition-info {
+  background-color: #a3b18a;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+  height: 240px;
+  text-align: left;
+
+}
